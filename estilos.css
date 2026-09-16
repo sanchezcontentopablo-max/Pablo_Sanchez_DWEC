@@ -1,14 +1,16 @@
 body {
-font-family: "Segoe UI", system-ui, sans-serif;
-background-color: rgb(0,0,0);
-color: #e8ecf4;
-max-width: 700px;
-margin: 40px auto;
-padding: 0 20px;
-line-height: 1.6;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    background-color: rgb(0,0,0);
+    color: #e8ecf4;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
 }
+
 h1 {
-color: #4f8cff;
+    color: #4f8cff;
+}
 
 #boton {
     background-color: #58a6ff;
@@ -21,6 +23,4 @@ color: #4f8cff;
 
 #boton:hover {
     background-color: #1f6feb;
-}
-
 }
