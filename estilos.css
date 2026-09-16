@@ -1,6 +1,6 @@
 body {
     font-family: "Segoe UI", system-ui, sans-serif;
-    background-color: rgb(0,0,0);
+    background-color: #000000;
     color: #e8ecf4;
     max-width: 700px;
     margin: 40px auto;
@@ -23,4 +23,70 @@ h1 {
 
 #boton:hover {
     background-color: #1f6feb;
+}
+
+#menu {
+    background-color: #222222;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    margin: 0;
+}
+
+#menu .enlace-menu {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu .enlace-menu:hover {
+    color: #58a6ff;
+}
+
+#modonoche {
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#modonoche:hover {
+    background-color: #444444;
+}
+
+body.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.tema-claro #menu {
+    background-color: #dddddd;
+}
+
+body.tema-claro .enlace-menu {
+    color: #000000;
+}
+
+body.tema-claro .enlace-menu:hover {
+    color: #1f6feb;
+}
+
+body.tema-claro #modonoche {
+    background-color: #ffffff;
+    color: #000000;
 }
