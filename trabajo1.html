@@ -4,24 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabajo 1 de Desarrollo Web en Entorno Cliente">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>💻</text></svg>">
     <title>Trabajo 1</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
-    <nav id="menu">
+    <nav id="menu" aria-label="Menú principal">
         <ul>
             <li><a class="enlace-menu" href="index.html">HOME</a></li>
-            <li><a class="enlace-menu" href="trabajo1.html">TRABAJO 1</a></li>
+            <li><a class="enlace-menu" href="trabajo1.html" aria-current="page">TRABAJO 1</a></li>
         </ul>
 
-        <button id="modonoche">☀️</button>
+        <button type="button" id="modonoche" aria-label="Activar modo claro">☀️</button>
     </nav>
 
-    <h1>Trabajo 1</h1>
+    <main>
+        <h1>Trabajo 1</h1>
 
-    <p>Este es mi primer trabajo de Desarrollo Web en Entorno Cliente.</p>
+        <p>Este es mi primer trabajo de Desarrollo Web en Entorno Cliente.</p>
+    </main>
 
     <script src="app.js"></script>
 
